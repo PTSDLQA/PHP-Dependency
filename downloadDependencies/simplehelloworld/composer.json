@@ -1,0 +1,25 @@
+{
+    "repositories":[
+        {
+            "type":"package",
+            "package":{
+                "name":"pqr/superlib",
+                "version":"1.2.3",
+                "source":{
+                    "type":"git",
+                    "url":"https://github.com/Valntinka/superlib",
+                    "reference":"master"
+                },
+                "autoload":{
+                    "classmap":["timer.php"],
+                    "files":["lib_functions.php"]
+                }
+            }
+        }
+    ],
+
+    "require":{
+        "php":">=5.3.0",
+        "pqr/superlib":"1.2.3"
+    }
+}
